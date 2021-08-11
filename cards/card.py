@@ -7,6 +7,7 @@ class Card(object):
             (type(value) is not int) or
             (value > 10 or value <= 0) or
             (stave not in self.STAVES) or
+            (stave == 'Sylop') or
             (value is None or stave is None)):
 
             self.value = 0
