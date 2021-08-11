@@ -14,3 +14,9 @@ class Card(object):
         else:
             self.value = value
             self.stave = stave
+
+    def print(self):
+        if self.stave == 'Sylop':
+            print(self.stave)
+        else:
+            print('%d of %s' % (self.value, self.stave))
