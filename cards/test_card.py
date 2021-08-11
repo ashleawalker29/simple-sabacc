@@ -45,7 +45,3 @@ class CardTests(unittest.TestCase):
 
         for test_card in test_cards:
             self.assertTrue(test_card.stave in ['Circles', 'Triangles', 'Squares', 'Sylop'])
-
-
-if __name__ == '__main__':
-    unittest.main()

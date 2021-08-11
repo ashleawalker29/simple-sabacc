@@ -33,7 +33,3 @@ class CardTests(unittest.TestCase):
         test_card.print()
 
         mock_print.assert_called_with('5 of Squares')
-
-
-if __name__ == '__main__':
-    unittest.main()
