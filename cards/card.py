@@ -1,6 +1,6 @@
 class Card(object):
 
-    STAVES = ['Circles', 'Triangles', 'Squares', 'Sylop']
+    STAVES = ['Circles', 'Triangles', 'Squares']
 
     def __init__(self, value, stave):
         if ((type(value) is not int) or
